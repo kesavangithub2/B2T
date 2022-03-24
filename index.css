@@ -5,7 +5,7 @@
     color: aliceblue;
     text-align: justify;
     font-size: 16px;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #nav{
@@ -23,9 +23,24 @@
 }
 a.nav1:hover{
     background-color: aliceblue;
-
-    border-radius: 25px;
+height: 45px;
+    border-radius: 15px;
     color: black;
 }
 
+
+@media (max-width: 1000px) {
+   
+     .navst{
+    display: none;
+     }
+}
+
+
+@media (min-width: 1000px) {
+   
+    #nav-mobile{
+   display: none;
+    }
+}
 
